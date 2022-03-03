@@ -203,7 +203,7 @@ function collide(body,sprite)
   if(body!=null)
         {
          var d = dist(body.position.x,body.position.y,sprite.position.x,sprite.position.y);
-          if(d<=80)
+          if(d<=150)
             {
               World.remove(engine.world,fruit);
                fruit = null;
